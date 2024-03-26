@@ -139,7 +139,7 @@ namespace GoldSprite.UnityPlugins.MyInputSystem {
             var actionValues = ReflectionHelper.GetValue<MyInputManager, Dictionary<Delegate, object>>(input, "actionValues");
             if (actionValues != null && actionValues.Count > 0) {
                 position.height = EditorGUIUtility.singleLineHeight;
-                Debug.Log("Draw");
+                //Debug.Log("Draw");
                 float lineMargin = 5f;
 
                 //backColor = EditorGUI.ColorField(position, backColor);
